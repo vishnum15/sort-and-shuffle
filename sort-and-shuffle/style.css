@@ -16,15 +16,22 @@
 }
 
 
-first {
-  float: right;
+
+
+.first {
+  float: left;
   width:800px;
   
 }
-second {
+.second {
+  
   overflow: hidden;
-  min-height: 170px;
+  
 }
+
+.container {
+  width: 1000px;
+ }
 
 
 .btn {

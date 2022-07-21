@@ -3,7 +3,7 @@ import "./style.css";
 import { shuffleCards, sortCards } from "./shufflesort.js";
 
 document.querySelector("#app").innerHTML = `
-  <div> 
+  <div class="container"> 
   <div id="first" class="first">
   
   </div>
