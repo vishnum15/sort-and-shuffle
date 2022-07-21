@@ -15,6 +15,9 @@ document.querySelector("#app").innerHTML = `
     
   </div>
 `;
+document.addEventListener('DOMContentLoaded',function(){
+  document.getElementById("sort").click();
+});
 
 shuffleCards(document.querySelector("#shuffle"));
 sortCards(document.querySelector("#sort"));
